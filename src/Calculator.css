@@ -1,0 +1,25 @@
+.calculator {
+  width: 500px;
+  margin: 5% auto;
+}
+
+.input-boxes {
+  height: 41.99px;
+  /* backgroundColor: "gray",
+                  textAlign: "right",
+                  padding: "1rem",
+                  marginBottom: "0", */
+  background-color: rgb(191, 187, 187);
+  text-align: right;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.operation-buttons {
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  height: 75px;
+}
