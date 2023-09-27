@@ -42,6 +42,81 @@ export default function Calculator() {
             ÷
           </Button>
         </Grid>
+        <Grid className="row" item xs={3}>
+          <Button className="operation-buttons" variant="outlined">
+            7
+          </Button>
+        </Grid>
+        <Grid item xs={3}>
+          <Button className="operation-buttons" variant="outlined">
+            8
+          </Button>
+        </Grid>
+        <Grid item xs={3}>
+          <Button className="operation-buttons" variant="outlined">
+            9
+          </Button>
+        </Grid>
+        <Grid item xs={3}>
+          <Button className="operation-buttons" variant="outlined">
+            ×
+          </Button>
+        </Grid>
+        <Grid className="row" item xs={3}>
+          <Button className="operation-buttons" variant="outlined">
+            4
+          </Button>
+        </Grid>
+        <Grid item xs={3}>
+          <Button className="operation-buttons" variant="outlined">
+            5
+          </Button>
+        </Grid>
+        <Grid item xs={3}>
+          <Button className="operation-buttons" variant="outlined">
+            6
+          </Button>
+        </Grid>
+        <Grid item xs={3}>
+          <Button className="operation-buttons" variant="outlined">
+            +
+          </Button>
+        </Grid>
+        <Grid className="row" item xs={3}>
+          <Button className="operation-buttons" variant="outlined">
+            1
+          </Button>
+        </Grid>
+        <Grid item xs={3}>
+          <Button className="operation-buttons" variant="outlined">
+            2
+          </Button>
+        </Grid>
+        <Grid item xs={3}>
+          <Button className="operation-buttons" variant="outlined">
+            3
+          </Button>
+        </Grid>
+        <Grid item xs={3}>
+          <Button className="operation-buttons" variant="outlined">
+            -
+          </Button>
+        </Grid>
+        <Grid className="row" item xs={3}>
+          <Button className="operation-buttons" variant="outlined">
+            0
+          </Button>
+        </Grid>
+        <Grid item xs={3}>
+          <Button className="operation-buttons" variant="outlined">
+            .
+          </Button>
+        </Grid>
+        <Grid item xs={6}>
+          <Button className="operation-buttons" variant="outlined">
+            =
+          </Button>
+        </Grid>
       </Grid>
     </div>
   );
