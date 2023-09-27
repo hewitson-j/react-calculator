@@ -249,7 +249,17 @@ export default function Calculator() {
           </Button>
         </Grid>
         <Grid className="row" item xs={3}>
-          <Button className="operation-buttons" variant="outlined">
+          <Button
+            className="operation-buttons"
+            variant="outlined"
+            onClick={() => {
+              if (input2 === "0") {
+                setInput2(input2);
+              } else {
+                setInput2(input2 + "0");
+              }
+            }}
+          >
             0
           </Button>
         </Grid>
